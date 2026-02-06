@@ -14,3 +14,18 @@ Our suggestions for breaking down the task into TODOs:
 - For each of the features, write which dependencies, functions and React component(s) you'll need for them, if any
 - Describe how each component will interact with the other components
 - Identify any unknowns
+## Stretch Goals
+
+- Allow user to specify hue (eg. green or red or blue)
+- Allow user to specify luminosity (eg. light or dark)
+- Transition smoothly between the colors as they change
+- Use a CSS-in-JS library for all styling (eg. Emotion or Styled Components)
+- Allow user to specify size for the color box
+- Make a "screensaver mode" where the color box moves around in a diagonal pattern, bouncing off the screen edges and changing color (eg. like [this](https://user-images.githubusercontent.com/1935696/93082456-42d27100-f691-11ea-872a-7cb7c0df6b9a.gif))
+
+## Acceptance Criteria
+
+- [ ] Preflight runs without errors in your project
+- [ ] Link in your GitHub repo's About section: [Netlify deployed website](https://learn.upleveled.io/pern-extensive-immersive-winter-2026-nlams/modules/cheatsheet-deployment/#deploying-an-app-to-netlify)
+- [ ] [Drone bot](https://learn.upleveled.io/pern-extensive-immersive-winter-2026-nlams/modules/cheatsheet-tasks/#upleveled-drone) has been tagged and responded with a passing message
+- [ ] Correct GitHub commit message format (see [Writing Commit Messages](https://learn.upleveled.io/pern-extensive-immersive-winter-2026-nlams/modules/cheatsheet-git-github/#writing-commit-messages))
