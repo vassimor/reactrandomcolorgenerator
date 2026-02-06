@@ -18,7 +18,8 @@ export default function App() {
         <button className="button" onClick={() => setNewcolor(randomColor({hue,luminosity}))}>
           Generate
         </button>
-        <p style={{ backgroundColor: newcolor }}>
+        <p className="transit"
+        style={{ backgroundColor: newcolor }}>
           Generated color :{GetColorName(newcolor)}
           {` `}
           {newcolor}
