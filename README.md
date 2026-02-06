@@ -14,6 +14,19 @@ Our suggestions for breaking down the task into TODOs:
 - For each of the features, write which dependencies, functions and React component(s) you'll need for them, if any
 - Describe how each component will interact with the other components
 - Identify any unknowns
+
+TODOS
+
+
+1.Create a state variable newcolor that will hold the color that would be generated and represent its change.
+2.Connect this state variable with the click event on the button.
+3.Import  packages that produce a random color from a hex code and get the name of the color.
+-These libraries are the following :  Getcolorname and randomcolor from npm.
+_Create the transition effect on the color generation event.
+4.Run the tests.
+
+
+
 ## Stretch Goals
 
 - Allow user to specify hue (eg. green or red or blue)

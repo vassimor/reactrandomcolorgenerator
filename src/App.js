@@ -15,24 +15,26 @@ export default function App() {
     <div>
       <div className="wrapper">
         <h1>React Random Color Generator</h1>
-        <button className="button" onClick={() => setNewcolor(randomColor({hue,luminosity}))}>
-          Generate
-        </button>
+
+
         <p className="transit"
         style={{ backgroundColor: newcolor }}>
           Generated color :{GetColorName(newcolor)}
           {` `}
           {newcolor}
         </p>
+        <button className="button" onClick={() => setNewcolor(randomColor({hue,luminosity}))}>
+          Generate
+        </button>
 
 
-         <label htmlFor="#hue">Please enter the hue</label>
+         <label className="firstLabel" htmlFor="#hue">Please enter the hue</label>
 
 
          <input  id="hue" value ={hue}
          onChange={(event) => {setHue(event.target.value)}} />
 
-         <label htmlFor='#lumin'>Please enter the luminosity</label>
+         <label className="secondLabel" htmlFor="#lumin">Please enter the luminosity</label>
 
 
 
@@ -46,7 +48,17 @@ export default function App() {
 
 
 
+
+
+
+
       </div>
+      <div  className="faviconcontainer">
+          <img src="favicon.ico" alt="Favicon" />
+          <img src="favicon.ico" alt="Favicon" />
+          <img src="favicon.ico" alt="Favicon" />
+          <img src="favicon.ico" alt="Favicon" />
+         </div>
     </div>
   );
 }
